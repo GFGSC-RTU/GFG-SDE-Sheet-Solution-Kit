@@ -23,3 +23,8 @@ This repository contains the [GFG SDE Sheet](https://www.geeksforgeeks.org/sde-s
 
 * All contributors who have followed the rules to contribute get successfully merged PR. Don't forget to follow!!!
 * Have some patience to get successfully merged PR. Keep Patience!!!
+
+### Bonus
+* See Code submitted by fellow coders from around you.
+* Discover some obscure to new and trending languages.
+* Check out some very creative ways to write a good code.
