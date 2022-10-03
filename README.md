@@ -18,3 +18,8 @@ This repository contains the [GFG SDE Sheet](https://www.geeksforgeeks.org/sde-s
 * Be sure to read the files [CONTRIBUTING.md](https://github.com/GFGSC-RTU/GFG-SDE-Sheet-Solution-Kit/blob/main/CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](https://github.com/GFGSC-RTU/GFG-SDE-Sheet-Solution-Kit/blob/main/CODE_OF_CONDUCT.md)
 * Repeated codes will not be merged in same programming language.
 * The quality of pull requests is more important than the quantity.
+
+### Note
+
+* All contributors who have followed the rules to contribute get successfully merged PR. Don't forget to follow!!!
+* Have some patience to get successfully merged PR. Keep Patience!!!
