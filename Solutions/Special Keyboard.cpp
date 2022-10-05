@@ -1,4 +1,4 @@
-// Problem link : https://practice.geeksforgeeks.org/problems/special-keyboard3018/1
+//Problem link : https://practice.geeksforgeeks.org/problems/special-keyboard3018/1
 
 /* A recursive C++ program to print maximum number of A's using
 following four keys */
@@ -32,7 +32,6 @@ int main()
 {
 	int N;
 
-	
 	for (N = 1; N <= 20; N++)
 		cout << "Maximum Number of A's with " << N <<
 		" keystrokes is " << findoptimal(N) << endl;
