@@ -1,30 +1,30 @@
-
-# Link : https://www.geeksforgeeks.org/rearrange-array-maximum-minimum-form/
-
-# Problem Statement:
-#   Given a sorted array of positive integers. Your task is to rearrange  the array elements alternatively i.e first element should be max value, second should be min value, third should be second max, fourth should be second min and so on.
-# Note: Modify the original array itself.
+# https://practice.geeksforgeeks.org/problems/-rearrange-array-alternately-1587115620/1
 
 class Solution:
+    ##Complete this function
+    #Function to rearrange  the array elements alternately.
     def rearrange(self,arr, n): 
-        arr.sort()
-        arrsmall = []
-        arrlarge = []
-        for i in range(0,n):
-            arrsmall.append(arr[i])
-        arr.sort(reverse = True)
-        for i in range(0,n):
-            arrlarge.append(arr[i])
-        temp = []
-        m=0
-        l=0
-        for i in range(0,n):
-            if (i%2 == 0):
-                temp.append(arrlarge[m])
-                m+=1
+        ##Your code here
+        m=len(arr)
+
+        c=0
+
+        u=[]
+
+        for k in range(len(arr)):
+
+            u.append(arr[k])
+
+        for j in range(len(arr)):
+
+            if j%2==0:
+
+                arr[j]=u[m-1]
+
+                m=m-1
+
             else:
-                temp.append(arrsmall[l])
-                l+=1
-        for i in range(0,n):
-            arr[i] = temp[i]
-        return arr 
+
+                arr[j]=u[c]
+
+                c=c+1
