@@ -1,0 +1,71 @@
+SQL Interview Questions:-
+
+1) What is the difference between COALESCE() & ISNULL()? 
+
+COALESCE(): COALESCE function in SQL returns the first non-NULL expression among its arguments. If all the expressions evaluate to null, 
+then the COALESCE function will return null.
+Syntax:
+
+SELECT column(s), CAOLESCE(expression_1,....,expression_n)
+FROM table_name;
+ISNULL(): The ISNULL function has different uses in SQL Server and MySQL. In SQL Server, ISNULL() function is used to replace NULL values.
+Syntax:
+
+SELECT column(s), ISNULL(column_name, value_to_replace)
+FROM table_name;
+For more details, please read the SQL | Null functions article.
+
+70. Name the operator which is used in the query for appending two strings?
+
+In SQL for appending two strings,  ” Concentration operator”  is used and its symbol is ” || “. 
+
+
+
+
+2)The difference between NVL and NVL2 functions?
+
+These functions work with any data type and pertain to the use of null values in the expression list. 
+These are all single-row functions i.e. provide one result per row.
+
+NVL(expr1, expr2): In SQL, NVL() converts a null value to an actual value. Data types that can be used are date, character, and number.
+Data types must match with each other. i.e. expr1 and expr2 must be of the same data type.
+ 
+
+Syntax:
+
+NVL (expr1, expr2)
+NVL2(expr1, expr2, expr3):  The NVL2 function examines the first expression. If the first expression is not null,
+then the NVL2 function returns the second expression. If the first expression is null, then the third expression is returned i.e. 
+If expr1 is not null, NVL2 returns expr2. If expr1 is null, NVL2 returns expr3. The argument expr1 can have any data type.
+
+Syntax:
+
+NVL2 (expr1, expr2, expr3)
+
+3) How to copy tables in SQL?
+
+Sometimes, in SQL, we need to create an exact copy of an already defined (or created) table. 
+MySQL enables you to perform this operation. 
+Because we may need such duplicate tables for testing the data without having any impact on the original table and the data stored in it. 
+
+CREATE TABLE Contact List(Clone_1) LIKE Original_table;
+
+
+4) What is ETL in SQL?
+
+ETL is a process in Data Warehousing and it stands for Extract, Transform and Load.
+It is a process in which an ETL tool extracts the data from various data source systems, transforms it in the staging area, and then finally, 
+loads it into the Data Warehouse system. 
+These are three database functions that are incorporated into one tool to pull data out from one database and to put data into another database.
+
+
+
+5)What are aggregate and scalar functions?
+
+For doing operations on data SQL has many built-in functions, they are categorized into two categories and further sub-categorized into seven different functions under each category. The categories are:
+
+Aggregate functions:
+These functions are used to do operations from the values of the column and a single value is returned.
+
+Scalar functions:
+These functions are based on user input, these too return a single value.
