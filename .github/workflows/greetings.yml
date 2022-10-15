@@ -13,4 +13,4 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: "Hey, thank you for opening your first Issue ! 🙂"
-        pr-message: "Hello there, thanks for opening your Pull Request. It will be reviewed soon."
+        pr-message: "Hello @${{ github.actor }} , thanks for opening your Pull Request. It will be reviewed soon."
