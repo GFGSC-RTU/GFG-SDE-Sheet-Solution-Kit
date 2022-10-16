@@ -22,7 +22,7 @@ public:
             break;
  
          case 2:
-            swap(nums[mid], nums[high--]);
+            swap(nums[mid], nums[high--] );
             break;
         }
     }
