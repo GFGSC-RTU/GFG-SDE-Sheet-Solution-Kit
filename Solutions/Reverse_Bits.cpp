@@ -14,6 +14,6 @@ uint32_t reverseBits(uint32_t n) {
 int main()
 {
   uint32_t x= 00000010100101000001111010011100;
-  cout<<reverseBits(x);
+  std::cout<<reverseBits(x);
   return 0;
 }
