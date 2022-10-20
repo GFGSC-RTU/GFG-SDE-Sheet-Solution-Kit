@@ -1,10 +1,10 @@
-problem:---Given an array of lowercase strings A[] of size N, determine if the strings can be chained together to form a circle. A string X can be chained together 
-with another string Y if the last character of X is same as first character of Y. If every string of the array can be chained, it will form a circle.
+// problem:---Given an array of lowercase strings A[] of size N, determine if the strings can be chained together to form a circle. A string X can be chained together 
+// with another string Y if the last character of X is same as first character of Y. If every string of the array can be chained, it will form a circle.
 
-For example, for the array arr[] = {"for", "geek", "rig", "kaf"} the answer will be Yes as the given strings can be chained as "for", "rig", "geek" and "kaf"
+// For example, for the array arr[] = {"for", "geek", "rig", "kaf"} the answer will be Yes as the given strings can be chained as "for", "rig", "geek" and "kaf"
 
 
-solution:-
+// solution:-
 
 class Solution
 {
